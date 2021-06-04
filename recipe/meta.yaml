@@ -1,4 +1,4 @@
-{% set version = "0.12" %}
+{% set version = "0.13" %}
 
 package:
   name: liburcu
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://lttng.org/files/urcu/userspace-rcu-latest-{{ version }}.tar.bz2
-  sha256: bbfaead0345642b97e0de90f889dfbab4b2643a6a5e5c6bb59cd0d26fc0bcd0e
+  sha256: cbb20dbe1a892c2a4d8898bac4316176e585392693d498766ccbbc68cf20ba20
 
 build:
   number: 0
@@ -29,12 +29,11 @@ test:
     - test -e $PREFIX/lib/liburcu-mb.so             # [unix]
     - test -e $PREFIX/lib/liburcu-bp.so             # [unix]
     - test -e $PREFIX/lib/liburcu-mb.so             # [unix]
- 
 about:
   home: https://liburcu.org/
   license: LGPL-2.0-or-later
   license_file: LICENSE
-  summary: 'liburcu is a LGPLv2.1 userspace RCU (read-copy-update) library'
+  summary: liburcu is a LGPLv2.1 userspace RCU (read-copy-update) library
   description: |
     liburcu is a LGPLv2.1 userspace RCU (read-copy-update) library
   doc_url: https://liburcu.org/
