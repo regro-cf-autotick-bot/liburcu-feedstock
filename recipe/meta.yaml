@@ -12,13 +12,13 @@ source:
 build:
   number: 0
   skip: true  # [osx or win]
+  run_exports:
+    - '{{ pin_subpackage(name, max_pin="x.x") }}'
 
 requirements:
   build:
     - {{ compiler('c') }}
     - make
-  run_exports:
-    - '{{ pin_subpackage(name, max_pin="x.x.x") }}'
 
 test:
   commands:
