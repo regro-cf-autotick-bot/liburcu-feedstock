@@ -1,3 +1,4 @@
+{% set name = "liburcu" %}
 {% set version = "0.13.2" %}
 
 package:
@@ -16,6 +17,8 @@ requirements:
   build:
     - {{ compiler('c') }}
     - make
+  run_exports:
+    - '{{ pin_subpackage(name, max_pin="x.x.x") }}'
 
 test:
   commands:
