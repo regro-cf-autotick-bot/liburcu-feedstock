@@ -1,11 +1,11 @@
-About liburcu
-=============
+About liburcu-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/liburcu-feedstock/blob/main/LICENSE.txt)
 
 Home: https://liburcu.org/
 
 Package license: LGPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/liburcu-feedstock/blob/main/LICENSE.txt)
 
 Summary: liburcu is a LGPLv2.1 userspace RCU (read-copy-update) library
 
@@ -121,7 +121,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -170,4 +170,5 @@ Feedstock Maintainers
 =====================
 
 * [@ZimmerA](https://github.com/ZimmerA/)
+* [@wolfv](https://github.com/wolfv/)
 
