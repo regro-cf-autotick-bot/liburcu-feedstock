@@ -1,5 +1,5 @@
 {% set name = "liburcu" %}
-{% set version = "0.14.0" %}
+{% set version = "0.14.1" %}
 
 package:
   name: liburcu
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://lttng.org/files/urcu/userspace-rcu-{{ version }}.tar.bz2
-  sha256: ca43bf261d4d392cff20dfae440836603bf009fce24fdc9b2697d837a2239d4f
+  sha256: 231acb13dc6ec023e836a0f0666f6aab47dc621ecb1d2cd9d9c22f922678abc0
 
 build:
   number: 0
